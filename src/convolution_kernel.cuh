@@ -25,6 +25,8 @@
 #ifndef CONVOLUTION_CUH
 #define CONVOLUTION_CUH
 
+#include <thrust/execution_policy.h>
+
 #include <array>
 #include <vector>
 

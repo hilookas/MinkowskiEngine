@@ -306,6 +306,7 @@ BIND_FILES = SOURCE_SETS[target][2]
 ARGS = SOURCE_SETS[target][3]
 CC_FLAGS += ARGS
 NVCC_FLAGS += ARGS
+NVCC_FLAGS += ["-DNVTX_DISABLE"]
 
 ext_modules = [
     Extension(
